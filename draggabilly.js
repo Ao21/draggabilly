@@ -255,8 +255,8 @@ Draggabilly.prototype._addTransformPosition = function( style ) {
 
 Draggabilly.prototype._setPosition = function(x,y){
   this.element.style[ transformProperty ] = translate( x, y );
-  Draggabilly.prototype.setLeftTop;
-}
+  this.setLeftTop();
+};
 
 
 // -------------------------- events -------------------------- //
